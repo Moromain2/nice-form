@@ -1,0 +1,88 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$bg-color: #eceef1;
+$blue: #0077C5;
+$grey: #BBB;
+$dark-grey: #4C4C4C;
+
+html body {
+  background-color: $bg-color;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+#icons {
+  width: 100%;
+  height: 36px;
+  background: url('icons.png') center;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+#intro-text {
+  color: $dark-grey;
+  font-size: 0.9em;
+  a {
+    text-decoration: none;
+    color: $blue;
+  }
+}
+
+#box {
+  width: 300px;
+  background-color: #FFF;
+  padding: 30px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
+  margin: auto;
+  margin-bottom: 30px;
+  h3, p {
+    text-align: center;
+  }
+  h3 {
+    font-size: 1.6em;
+    color: $dark-grey;
+    font-weight: 500;
+    margin-top: 20px;
+    border-top: 1px solid $grey;
+    padding-top: 20px;
+  }
+  input {
+    width: 90%;
+    margin: 3px 5% 3px 5%;
+  }
+  label {
+    margin-left: 6%;
+  }
+}
+
+
+input[type="submit" i] {
+  background-color: $blue;
+  border: none;
+  border-radius: 3px;
+  color: #FFF;
+  font-size: 1.5em;
+  font-weight: 300;
+  padding: 10px;
+}
+
+input[type="text" i], [type="password" i] {
+  height: 25px;
+  border-radius: 2px;
+  border: 1px solid $grey;
+}
+
+#legal-text {
+  font-size: .9em;
+  color: $grey;
+  font-weight: 400;
+  font-style: italic;
+  a {
+    text-decoration: none;
+    color: $blue;
+  }
+}
